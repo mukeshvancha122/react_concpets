@@ -1,8 +1,8 @@
 import React from 'react'
 
-function WelcomeFunctional(props){
+function WelcomeFunctional({name,heroName}) {
   return (
-    <div>Welcome Functional{props.name}</div>
+    <div>Welcome Functional{name} favourite hero {heroName}</div>
   )
 }
 
