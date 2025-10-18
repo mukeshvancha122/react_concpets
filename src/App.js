@@ -6,6 +6,7 @@ import Messgae from './components/Message';
 import Counter from './components/Counter';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Counter/>
       {/* <UserGreeting/> */}
       <NameList/>
+      <Form/>
     </div>
   );
 }
